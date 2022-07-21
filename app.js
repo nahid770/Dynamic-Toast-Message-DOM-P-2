@@ -11,11 +11,13 @@ function generateToastMessage(msz){
     const div = document.createElement('div');
     div.className = 'toast-message'
     div.innerText = msz;
+    div.setAttribute('title', 'Click to remove Toast');
     document.body.appendChild(div);
+
 
     div.addEventListener('click', function(){
         document.querySelector('.toast-message').style.display = "none";
-        
+
     })
     
 }
