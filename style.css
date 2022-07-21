@@ -1,0 +1,62 @@
+
+#text-input{
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+h2{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 40px;
+    color: #ffffff;
+    font-family:Helvetica, sans-serif;
+}
+.copy-game-container{
+    height: 300px;
+    width: 500px;
+    background-color: #a29bfe;
+    border-radius: 5px;
+    margin-left: 40px;
+}
+#btn{
+    background-color:#e84393;
+    padding:10px 40px;
+    font-size: 16px;
+    font-weight: 700;
+    color: whitesmoke;
+    border-radius: 28px;
+    border: 2px solid rgb(240, 240, 240);
+    
+}
+#btn:hover{
+    color: #e84393;
+    border: 2px solid #e84393;
+    background: white;
+    transition: .3s;
+}
+
+#comment{
+    margin-top: 30px;
+    margin-left:100px;
+    border-radius:13px;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.toast-message{
+    position: fixed;
+    z-index: 999;
+    top: 50px;
+    right: 50px;
+    background-color: rgba(23, 231, 238, 0.418);
+    border-radius: 10px;
+    color: black;
+    border: 2px solid white;
+    padding: 1rem 2rem;
+    cursor: pointer;
+   
+}
